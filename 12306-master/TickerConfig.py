@@ -42,12 +42,12 @@ IS_MORE_TICKET = True
 # 乘车人(list) 多个乘车人ex:
 # "张三",
 # "李四"
-TICKET_PEOPLES = ["孟启贤"]
-TICKET_PEOPLES = ["乔娜"]
+TICKET_PEOPLES = [""]
+TICKET_PEOPLES = [""]
 
 # 12306登录账号
-USER = "mqx17697294628"
-PWD = "mqx035897"
+USER = ""
+PWD = ""
 
 # 加入小黑屋时间默认为5分钟，此功能为了防止僵尸票导致一直下单不成功错过正常的票
 TICKET_BLACK_LIST_TIME = 5
@@ -82,10 +82,10 @@ HTTP_TYPE = "http"
 #  host: "smtp.qq.com"
 EMAIL_CONF = {
     "IS_MAIL": True,
-    "email": "1374478406@qq.com",
+    "email": "",
     "notice_email_list": "123@qq.com",
-    "username": "1374478406@qq.com",
-    "password": "hqukxpwxwmajgiae",
+    "username": "",
+    "password": "",
     "host": "smtp.qq.com",
 }
 
